@@ -1,6 +1,7 @@
 import React from 'react'
 import arrows from "../Assests/Icons/arrows.png"
-import product from "../Assests/Images/product.png"
+import sneaker from "../Assests/Images/sneaker.png"
+import like from "../Assests/Icons/like.svg"
 import girlImg from "../Assests/Images/girlImg.png"
 import hero from "../Assests/Images/Hero.png"
 import leftArrow from "../Assests/Icons/leftArrow.png"
@@ -9,19 +10,71 @@ import downArrow from "../Assests/Icons/downArrow.png"
 function PromotionalBanner() {
     return (
         <>
-        <div>
-            <h2 className='pt-6 pl-14.5 font-semibold text-2xl size-8.5'>adiWeek</h2>
+        {/* adiweek section */}
+        <h2 className='pt-6 pl-14.5 font-semibold text-2xl size-8.5'>adiWeek</h2>
+        <img className='flex ml-290' src={arrows} />
+        <div className='flex mt-8 px-9 pb-8 justify-between gap-8'>
+            <div>
+            <div className='relative rounded-xl overflow-hidden bg-[#f5f5f5] shadow-lg'>
+                <img src={sneaker} alt="sneaker" className='w-full h-full object-cover'/>
 
-            <img className='flex ml-290' src={arrows} />
+                <img src={like} alt="like" className='absolute top-6 right-6'/>
 
-            <div className="flex gap-2 mx-11 my-6">
-                <img src={product} className="w-1/4 object-cover" />
-                <img src={product} className="w-1/4 object-cover" />
-                <img src={product} className="w-1/4 object-cover" />
-                <img src={product} className="w-1/4 object-cover" />
+                <p className='absolute bottom-8 left-6 text-lg font-[600] mb-1'>U$170,00</p>
+                <p className='absolute bottom-4 left-6 font-[300] text-lg'>free shipping</p>
+            </div>
+
+            <p className='ml-6 mt-4 font-[700]'>Sneaker X</p>
+            <p className='ml-6'>Sneaker Style</p>
+            </div>
+
+
+            <div>
+            <div className='relative rounded-xl bg-[#f5f5f5] overflow-hidden shadow-lg'>
+                <img src={sneaker} alt="sneaker" className='w-full h-full object-cover'/>
+
+                <img src={like} alt="like" className='absolute top-6 right-6'/>
+
+                <p className='absolute bottom-8 left-6 text-lg font-[600] mb-1'>U$170,00</p>
+                <p className='absolute bottom-4 left-6 font-[300] text-lg'>free shipping</p>
+            </div>
+
+            <p className='ml-6 mt-4 font-[700]'>Sneaker X</p>
+            <p className='ml-6'>Sneaker Style</p>
+            </div>
+
+
+            <div>
+            <div className='relative rounded-xl bg-[#f5f5f5] overflow-hidden shadow-lg'>
+                <img src={sneaker} alt="sneaker" className='w-full h-full object-cover'/>
+
+                <img src={like} alt="like" className='absolute top-6 right-6'/>
+
+                <p className='absolute bottom-8 left-6 text-lg font-[600] mb-1'>U$170,00</p>
+                <p className='absolute bottom-4 left-6 font-[300] text-lg'>free shipping</p>
+            </div>
+
+            <p className='ml-6 mt-4 font-[700]'>Sneaker X</p>
+            <p className='ml-6'>Sneaker Style</p>
+            </div>
+
+
+            <div>
+            <div className='relative rounded-xl bg-[#f5f5f5] overflow-hidden shadow-lg'>
+                <img src={sneaker} alt="sneaker" className='w-full h-full object-cover'/>
+
+                <img src={like} alt="like" className='absolute top-6 right-6'/>
+
+                <p className='absolute bottom-8 left-6 text-lg font-[600] mb-1'>U$170,00</p>
+                <p className='absolute bottom-4 left-6 font-[300] text-lg'>free shipping</p>
+            </div>
+
+            <p className='ml-6 mt-4 font-[700]'>Sneaker X</p>
+            <p className='ml-6'>Sneaker Style</p>
             </div>
         </div>
-
+        
+        {/* outfit section */}
         <div className="w-[1200px] h-[550px] mx-auto flex overflow-hidden rounded-[60px]">
             <div
                 className="relative w-[400px] h-full bg-cover bg-center"
@@ -49,17 +102,67 @@ function PromotionalBanner() {
                 </div>    
             </div>
         </div>
-        
-        <div>
-            <h2 className='pt-6 pl-14.5 font-semibold text-2xl size-8.5 whitespace-nowrap'>Do you still like these products?</h2>
 
-            <img className='flex ml-290' src={arrows} />
+        {/* do you like secction */}
+        <h2 className='pt-6 pl-14.5 font-semibold text-2xl whitespace-nowrap size-8.5'>Do you still like these products?</h2>
+        <img className='flex ml-290' src={arrows} />
+        <div className='flex mt-8 px-9 pb-8 justify-between gap-8'>
+            <div>
+            <div className='relative rounded-xl overflow-hidden bg-[#f5f5f5] shadow-lg'>
+                <img src={sneaker} alt="sneaker" className='w-full h-full object-cover'/>
 
-            <div className="flex gap-2 mx-11 my-6">
-                <img src={product} className="w-1/4 object-cover" />
-                <img src={product} className="w-1/4 object-cover" />
-                <img src={product} className="w-1/4 object-cover" />
-                <img src={product} className="w-1/4 object-cover" />
+                <img src={like} alt="like" className='absolute top-6 right-6'/>
+
+                <p className='absolute bottom-8 left-6 text-lg font-[600] mb-1'>U$170,00</p>
+                <p className='absolute bottom-4 left-6 font-[300] text-lg'>free shipping</p>
+            </div>
+
+            <p className='ml-6 mt-4 font-[700]'>Sneaker X</p>
+            <p className='ml-6'>Sneaker Style</p>
+            </div>
+
+            <div>
+            <div className='relative rounded-xl bg-[#f5f5f5] overflow-hidden shadow-lg'>
+                <img src={sneaker} alt="sneaker" className='w-full h-full object-cover'/>
+
+                <img src={like} alt="like" className='absolute top-6 right-6'/>
+
+                <p className='absolute bottom-8 left-6 text-lg font-[600] mb-1'>U$170,00</p>
+                <p className='absolute bottom-4 left-6 font-[300] text-lg'>free shipping</p>
+            </div>
+
+            <p className='ml-6 mt-4 font-[700]'>Sneaker X</p>
+            <p className='ml-6'>Sneaker Style</p>
+            </div>
+
+
+            <div>
+            <div className='relative rounded-xl bg-[#f5f5f5] overflow-hidden shadow-lg'>
+                <img src={sneaker} alt="sneaker" className='w-full h-full object-cover'/>
+
+                <img src={like} alt="like" className='absolute top-6 right-6'/>
+
+                <p className='absolute bottom-8 left-6 text-lg font-[600] mb-1'>U$170,00</p>
+                <p className='absolute bottom-4 left-6 font-[300] text-lg'>free shipping</p>
+            </div>
+
+            <p className='ml-6 mt-4 font-[700]'>Sneaker X</p>
+            <p className='ml-6'>Sneaker Style</p>
+            </div>
+
+
+            <div>
+            <div className='relative rounded-xl bg-[#f5f5f5] overflow-hidden shadow-lg'>
+                <img src={sneaker} alt="sneaker" className='w-full h-full object-cover'/>
+
+                <img src={like} alt="like" className='absolute top-6 right-6'/>
+
+                <p className='absolute bottom-8 left-6 text-lg font-[600] mb-1'>U$170,00</p>
+                <p className='absolute bottom-4 left-6 font-[300] text-lg'>free shipping</p>
+            </div>
+
+            <p className='ml-6 mt-4 font-[700]'>Sneaker X</p>
+            <p className='ml-6'>Sneaker Style</p>
             </div>
         </div>
         </>
