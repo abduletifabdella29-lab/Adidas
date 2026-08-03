@@ -2,6 +2,7 @@ import React from "react"
 import Header from "./Components/Header"
 import HeroSection from "./Components/HeroSection"
 import PromotionalBanner from "./Components/PromotionalBanner"
+import HistorySection from "./Components/HistorySection.jsx"
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <HeroSection />
         <PromotionalBanner />
+        <HistorySection />
         </>
     )
 }

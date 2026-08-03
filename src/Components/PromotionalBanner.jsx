@@ -62,6 +62,7 @@ function PromotionalBanner() {
             <div>
             <div className='relative rounded-xl bg-[#f5f5f5] overflow-hidden shadow-lg'>
                 <img src={sneaker} alt="sneaker" className='w-full h-full object-cover'/>
+            <p className='absolute bottom-8 left-6 text-lg font-[600] mb-1'>U$170,00</p>
 
                 <img src={like} alt="like" className='absolute top-6 right-6'/>
 
@@ -135,7 +136,6 @@ function PromotionalBanner() {
             <p className='ml-6'>Sneaker Style</p>
             </div>
 
-
             <div>
             <div className='relative rounded-xl bg-[#f5f5f5] overflow-hidden shadow-lg'>
                 <img src={sneaker} alt="sneaker" className='w-full h-full object-cover'/>
@@ -150,14 +150,12 @@ function PromotionalBanner() {
             <p className='ml-6'>Sneaker Style</p>
             </div>
 
-
             <div>
             <div className='relative rounded-xl bg-[#f5f5f5] overflow-hidden shadow-lg'>
                 <img src={sneaker} alt="sneaker" className='w-full h-full object-cover'/>
 
                 <img src={like} alt="like" className='absolute top-6 right-6'/>
 
-                <p className='absolute bottom-8 left-6 text-lg font-[600] mb-1'>U$170,00</p>
                 <p className='absolute bottom-4 left-6 font-[300] text-lg'>free shipping</p>
             </div>
 
