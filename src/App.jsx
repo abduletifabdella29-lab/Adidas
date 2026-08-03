@@ -4,6 +4,7 @@ import HeroSection from "./Components/HeroSection"
 import PromotionalBanner from "./Components/PromotionalBanner"
 import HistorySection from "./Components/HistorySection.jsx"
 import InterestingSection from "./Components/InterestingSection.jsx"
+import Footer from "./Components/Footer.jsx"
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
         <PromotionalBanner />
         <HistorySection />
         <InterestingSection />
+        <Footer />
         </>
     )
 }

@@ -7,8 +7,8 @@ import blackshoes from "../Assests/Images/blackshoes.png"
 function InterestingSection() {
     return (
     <>
-    <div className='mx-15'>
-        <div className='mt-15 '>
+    <div className='mx-15 mb-20'>
+        <div className='mt-15'>
             <h1 className='w-78.25 h-9.25 font-extrabold text-3xl size-7.5'>MOST INTERESTING</h1>
         </div>
 
